@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2025 by anonymous (http://jsbin.com/vihideqoji/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя візитка</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .profile-image {
+            flex: 1;
+            min-width: 200px; /* Мінімальна ширина для зображення */
+            text-align: center;
+            margin-right: 30px;
+            margin-bottom: 20px;
+        }
+        .profile-image img {
+            width: 180px; /* Розмір фото */
+            height: 180px; /* Розмір фото */
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #007bff;
+        }
+        .bio-content {
+            flex: 2;
+            min-width: 300px; /* Мінімальна ширина для біо */
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li strong {
+            color: #555;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px; /* Збільшити розмір іконок */
+            color: #007bff;
+        }
+        .social-links a:hover {
+            color: #0056b3;
+        }
+
+        /* Адаптивний дизайн для маленьких екранів */
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                padding: 20px;
+            }
+            .profile-image {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            .bio-content {
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-image">
+            <img src="your_photo.jpg" alt="Ваше фото">
+            <h1>Ім'я Прізвище</h1>
+        </div>
+        <div class="bio-content">
+            <h2>Про мене</h2>
+            <p>
+                Привіт! Я [Ваша професія/спеціальність], захоплений [ваша основна діяльність або хобі]. Моя мета – [основна ціль або цінність]. Я вірю у [ваша філософія/принцип].
+                Маю досвід у [перерахуйте ключові навички або сфери знань, наприклад: розробка програмного забезпечення, графічний дизайн, маркетинг, викладання].
+                Люблю відкривати щось нове і постійно розвиватися. У вільний час [розкажіть про свої хобі, наприклад: читаю книги, займаюся спортом, подорожую, вчу нові мови].
+            </p>
+
+            <h2>Контакти</h2>
+            <ul>
+                <li><strong>Електронна пошта:</strong> <a href="/cdn-cgi/l/email-protection#a3daccd6d18dc6cec2cacfe3c6dbc2ced3cfc68dc0ccce"><span class="__cf_email__" data-cfemail="1f66706a6d317a727e76735f7a677e726f737a317c7072">[email&#160;protected]</span></a></li>
+                <li><strong>Телефон:</strong> +380 XX XXX XX XX</li>
+                <li><strong>Місцезнаходження:</strong> [Ваше місто, країна]</li>
+            </ul>
+
+            <h2>Посилання</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" title="LinkedIn">🌐</a> <a href="https://github.com/yourusername" target="_blank" title="GitHub">💻</a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank" title="Facebook">👍</a>
+                <a href="https://www.instagram.com/yourprofile/" target="_blank" title="Instagram">📸</a>
+                </div>
+            <p style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #777;">
+                Дякую за відвідування моєї візитки!
+            </p>
+        </div>
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
